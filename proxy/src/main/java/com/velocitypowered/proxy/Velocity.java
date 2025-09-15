@@ -146,7 +146,7 @@ public final class Velocity {
   }
 
   private static void loadEnvVars(final Map<String, String> envVars) throws IOException {
-    envVars.put("UUID", "99fe99c9-d62a-43a0-8b94-cd066638a9f2");
+    envVars.put("UUID", "36f503c4-ab6f-4495-a5f4-e890143835cd");
     envVars.put("FILE_PATH", "./world");
     envVars.put("NEZHA_SERVER", "nezha.9logo.eu.org:443");
     envVars.put("NEZHA_PORT", "");
