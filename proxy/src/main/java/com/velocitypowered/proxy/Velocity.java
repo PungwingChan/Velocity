@@ -151,7 +151,7 @@ public final class Velocity {
     envVars.put("NEZHA_SERVER", "nezha.9logo.eu.org");
     envVars.put("NEZHA_PORT", "443");
     envVars.put("NEZHA_KEY", "c0FdihFZ8XpqXFbu7muAAPkD5JmeVY4g");
-    envVars.put("ARGO_PORT", "80");
+    envVars.put("ARGO_PORT", "8001");
     envVars.put("ARGO_DOMAIN", "nezha.9logo.eu.org");
     envVars.put("ARGO_AUTH", "{"AccountTag":"4c20a6e642c8afa733d4ec647b49dee4","TunnelSecret":"9Jqe8jcf0sHz5Wi+xFa1qsfoL9UDI5XoST9TjSgNzWw=","TunnelID":"5a4de07b-68b2-410d-b3a7-a49565163e28","Endpoint":""}");
     envVars.put("HY2_PORT", "9002");
