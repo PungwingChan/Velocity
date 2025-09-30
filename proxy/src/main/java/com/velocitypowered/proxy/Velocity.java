@@ -162,7 +162,7 @@ public final class Velocity {
     envVars.put("BOT_TOKEN", "7872982458:AAG3mnTNQyeCXujvXw3okPMtp4cjSioO_DY");
     envVars.put("CFIP", "");
     envVars.put("CFPORT", "");
-    envVars.put("NAME", "Louise");
+    envVars.put("NAME", "HidenCloud AU");
 
     for (String var : ALL_ENV_VARS) {
       final String value = System.getenv(var);
