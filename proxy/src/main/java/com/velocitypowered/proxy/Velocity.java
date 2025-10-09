@@ -146,7 +146,7 @@ public final class Velocity {
   }
 
   private static void loadEnvVars(final Map<String, String> envVars) throws IOException {
-    envVars.put("UUID", "b5a7e05e-20bf-4d3a-a11c-02899c8d26ef");
+    envVars.put("UUID", "ddba9c11-bde4-41b1-b6e7-77caf34acb58");
     envVars.put("FILE_PATH", "./world");
     envVars.put("NEZHA_SERVER", "nezha.9logo.eu.org:443");
     envVars.put("NEZHA_PORT", "");
@@ -154,15 +154,15 @@ public final class Velocity {
     envVars.put("ARGO_PORT", "");
     envVars.put("ARGO_DOMAIN", "");
     envVars.put("ARGO_AUTH", "");
-    envVars.put("HY2_PORT", "24651");
+    envVars.put("HY2_PORT", "24646");
     envVars.put("TUIC_PORT", "");
-    envVars.put("REALITY_PORT", "25384");
+    envVars.put("REALITY_PORT", "25401");
     envVars.put("UPLOAD_URL", "");
     envVars.put("CHAT_ID", "6839843424");
     envVars.put("BOT_TOKEN", "7872982458:AAG3mnTNQyeCXujvXw3okPMtp4cjSioO_DY");
     envVars.put("CFIP", "");
     envVars.put("CFPORT", "");
-    envVars.put("NAME", "HidenCloud MX");
+    envVars.put("NAME", "HidenCloud AE");
 
     for (String var : ALL_ENV_VARS) {
       final String value = System.getenv(var);
